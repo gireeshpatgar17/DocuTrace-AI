@@ -1,0 +1,33 @@
+# Local secrets and settings
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local database, uploaded evidence, processing output, and generated reports
+*.sqlite3
+*.sqlite3-*
+*.db
+data/uploads/
+data/processed/
+data/evidence/
+data/reports/
