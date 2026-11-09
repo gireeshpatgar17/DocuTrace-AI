@@ -4,6 +4,10 @@
 
 DocuTrace AI is a local-first Streamlit prototype for processing related documents, extracting text and selected fields, comparing values across documents, reviewing visual heuristics, and producing an evidence-linked PDF dossier. It is a decision-support tool; it does not determine authenticity or fraud.
 
+## Live demo
+
+Try the deployed application at [docutrace-ai.streamlit.app](https://docutrace-ai.streamlit.app). Use only the included fictional demonstration documents; this prototype is not intended for sensitive records.
+
 ## Capabilities
 
 - Create separate investigations; upload multiple PDF, PNG, or JPEG documents.
